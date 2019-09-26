@@ -1,0 +1,14 @@
+print("Quadratic Root finder")
+print(
+    "Enter the values of a, b, and c for the quadratic equation in the form ax^2 + bx + c = 0")
+#accepting values
+a = float(input('enter a:'))
+b = float(input('enter b:'))
+c = float(input('enter c:'))
+# determining the discriminate
+d = (b**2 - (4*a*c))**(1/2)
+#calculating roots
+x1 = (-b+d)/(2*a)
+x2 = (-b-d)/(2*a)
+#printing roots
+print('the two roots of this quadratic equation are: {0} and {1}'.format(x1,x2))

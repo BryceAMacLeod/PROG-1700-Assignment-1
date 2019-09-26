@@ -1,0 +1,25 @@
+import turtle
+
+
+turtle.color("blue")
+
+turtle.right(72)
+
+turtle.forward(400)
+
+turtle.right(144)
+
+turtle.forward(400)
+
+turtle.right(144)
+
+turtle.forward(400)
+
+turtle.right(144)
+
+turtle.forward(400)
+
+turtle.right(144)
+
+turtle.forward(400)
+ 
